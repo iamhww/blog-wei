@@ -137,3 +137,13 @@ declare_type: 2
 licensee_url: https://creativecommons.org/licenses/by-nc-sa/4.0/          # 当前应用的版权协议地址。
 licensee_name: '知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议'  # 版权协议的名称
 licensee_img: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png      # 版权协议的Logo
+
+#Valine https://valine.js.org 一款快速、简洁且高效的无后端评论系统。
+#
+valine:
+  appid: KNjPB6jyNqshixL2weXxGK1V-gzGzoHsz #Leancloud应用的appId
+  appkey: lYlgnNr70F16Dyy8WxcXRPT5 #Leancloud应用的appKey
+  verify: false #验证码
+  notify: false #评论回复提醒
+  avatar: mm #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
+  placeholder: Just go go #评论框占位符
